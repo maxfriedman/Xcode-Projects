@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50441C2E1AA0F2F3008A30BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50441C2D1AA0F2F3008A30BB /* AppDelegate.swift */; };
+		50441C301AA0F2F3008A30BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50441C2F1AA0F2F3008A30BB /* ViewController.swift */; };
+		50441C331AA0F2F3008A30BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50441C311AA0F2F3008A30BB /* Main.storyboard */; };
+		50441C351AA0F2F3008A30BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50441C341AA0F2F3008A30BB /* Images.xcassets */; };
+		50441C381AA0F2F3008A30BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50441C361AA0F2F3008A30BB /* LaunchScreen.xib */; };
+		50441C441AA0F2F3008A30BB /* Fuel_Density_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50441C431AA0F2F3008A30BB /* Fuel_Density_CalculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50441C3E1AA0F2F3008A30BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50441C201AA0F2F3008A30BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50441C271AA0F2F3008A30BB;
+			remoteInfo = "Fuel Density Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50441C281AA0F2F3008A30BB /* Fuel Density Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fuel Density Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50441C2C1AA0F2F3008A30BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50441C2D1AA0F2F3008A30BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50441C2F1AA0F2F3008A30BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50441C321AA0F2F3008A30BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50441C341AA0F2F3008A30BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50441C371AA0F2F3008A30BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		50441C3D1AA0F2F3008A30BB /* Fuel Density CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fuel Density CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50441C421AA0F2F3008A30BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50441C431AA0F2F3008A30BB /* Fuel_Density_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fuel_Density_CalculatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50441C251AA0F2F3008A30BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50441C3A1AA0F2F3008A30BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50441C1F1AA0F2F3008A30BB = {
+			isa = PBXGroup;
+			children = (
+				50441C2A1AA0F2F3008A30BB /* Fuel Density Calculator */,
+				50441C401AA0F2F3008A30BB /* Fuel Density CalculatorTests */,
+				50441C291AA0F2F3008A30BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50441C291AA0F2F3008A30BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50441C281AA0F2F3008A30BB /* Fuel Density Calculator.app */,
+				50441C3D1AA0F2F3008A30BB /* Fuel Density CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50441C2A1AA0F2F3008A30BB /* Fuel Density Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				50441C2D1AA0F2F3008A30BB /* AppDelegate.swift */,
+				50441C2F1AA0F2F3008A30BB /* ViewController.swift */,
+				50441C311AA0F2F3008A30BB /* Main.storyboard */,
+				50441C341AA0F2F3008A30BB /* Images.xcassets */,
+				50441C361AA0F2F3008A30BB /* LaunchScreen.xib */,
+				50441C2B1AA0F2F3008A30BB /* Supporting Files */,
+			);
+			path = "Fuel Density Calculator";
+			sourceTree = "<group>";
+		};
+		50441C2B1AA0F2F3008A30BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50441C2C1AA0F2F3008A30BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50441C401AA0F2F3008A30BB /* Fuel Density CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				50441C431AA0F2F3008A30BB /* Fuel_Density_CalculatorTests.swift */,
+				50441C411AA0F2F3008A30BB /* Supporting Files */,
+			);
+			path = "Fuel Density CalculatorTests";
+			sourceTree = "<group>";
+		};
+		50441C411AA0F2F3008A30BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50441C421AA0F2F3008A30BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50441C271AA0F2F3008A30BB /* Fuel Density Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50441C471AA0F2F3008A30BB /* Build configuration list for PBXNativeTarget "Fuel Density Calculator" */;
+			buildPhases = (
+				50441C241AA0F2F3008A30BB /* Sources */,
+				50441C251AA0F2F3008A30BB /* Frameworks */,
+				50441C261AA0F2F3008A30BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fuel Density Calculator";
+			productName = "Fuel Density Calculator";
+			productReference = 50441C281AA0F2F3008A30BB /* Fuel Density Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50441C3C1AA0F2F3008A30BB /* Fuel Density CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50441C4A1AA0F2F3008A30BB /* Build configuration list for PBXNativeTarget "Fuel Density CalculatorTests" */;
+			buildPhases = (
+				50441C391AA0F2F3008A30BB /* Sources */,
+				50441C3A1AA0F2F3008A30BB /* Frameworks */,
+				50441C3B1AA0F2F3008A30BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50441C3F1AA0F2F3008A30BB /* PBXTargetDependency */,
+			);
+			name = "Fuel Density CalculatorTests";
+			productName = "Fuel Density CalculatorTests";
+			productReference = 50441C3D1AA0F2F3008A30BB /* Fuel Density CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50441C201AA0F2F3008A30BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Gammon Tech";
+				TargetAttributes = {
+					50441C271AA0F2F3008A30BB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					50441C3C1AA0F2F3008A30BB = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 50441C271AA0F2F3008A30BB;
+					};
+				};
+			};
+			buildConfigurationList = 50441C231AA0F2F3008A30BB /* Build configuration list for PBXProject "Fuel Density Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50441C1F1AA0F2F3008A30BB;
+			productRefGroup = 50441C291AA0F2F3008A30BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50441C271AA0F2F3008A30BB /* Fuel Density Calculator */,
+				50441C3C1AA0F2F3008A30BB /* Fuel Density CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50441C261AA0F2F3008A30BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50441C331AA0F2F3008A30BB /* Main.storyboard in Resources */,
+				50441C381AA0F2F3008A30BB /* LaunchScreen.xib in Resources */,
+				50441C351AA0F2F3008A30BB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50441C3B1AA0F2F3008A30BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50441C241AA0F2F3008A30BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50441C301AA0F2F3008A30BB /* ViewController.swift in Sources */,
+				50441C2E1AA0F2F3008A30BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50441C391AA0F2F3008A30BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50441C441AA0F2F3008A30BB /* Fuel_Density_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50441C3F1AA0F2F3008A30BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50441C271AA0F2F3008A30BB /* Fuel Density Calculator */;
+			targetProxy = 50441C3E1AA0F2F3008A30BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50441C311AA0F2F3008A30BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50441C321AA0F2F3008A30BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50441C361AA0F2F3008A30BB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50441C371AA0F2F3008A30BB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50441C451AA0F2F3008A30BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50441C461AA0F2F3008A30BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50441C481AA0F2F3008A30BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fuel Density Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		50441C491AA0F2F3008A30BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fuel Density Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		50441C4B1AA0F2F3008A30BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fuel Density CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fuel Density Calculator.app/Fuel Density Calculator";
+			};
+			name = Debug;
+		};
+		50441C4C1AA0F2F3008A30BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fuel Density CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fuel Density Calculator.app/Fuel Density Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50441C231AA0F2F3008A30BB /* Build configuration list for PBXProject "Fuel Density Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50441C451AA0F2F3008A30BB /* Debug */,
+				50441C461AA0F2F3008A30BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50441C471AA0F2F3008A30BB /* Build configuration list for PBXNativeTarget "Fuel Density Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50441C481AA0F2F3008A30BB /* Debug */,
+				50441C491AA0F2F3008A30BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50441C4A1AA0F2F3008A30BB /* Build configuration list for PBXNativeTarget "Fuel Density CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50441C4B1AA0F2F3008A30BB /* Debug */,
+				50441C4C1AA0F2F3008A30BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50441C201AA0F2F3008A30BB /* Project object */;
+}
